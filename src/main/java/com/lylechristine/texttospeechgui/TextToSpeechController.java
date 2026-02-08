@@ -19,7 +19,7 @@ public class TextToSpeechController {
 
         return voices;
     }
-
+    
     public static ArrayList<String> getSpeedRates() {
         ArrayList<String> speedRates = new ArrayList<>();
         speedRates.add("140"); // normal

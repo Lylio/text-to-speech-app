@@ -51,7 +51,7 @@ public class TextToSpeechGui extends Application {
         textArea.getStyleClass().add("text-area");
 
         StackPane textAreaPane = new StackPane();
-        //add margin around left and right of text area
+        //add margin around the left and right of the text area
         textAreaPane.setPadding(new Insets(0, 15, 0, 15));
         textAreaPane.getChildren().add(textArea);
         box.getChildren().add(textAreaPane);
@@ -136,7 +136,6 @@ public class TextToSpeechGui extends Application {
                 TextToSpeechController.getSpeedRates()
         );
         rates.setValue(rates.getItems().get(0));
-
         rates.getStyleClass().add("setting-combo-box");
 
         volumes = new ComboBox<>();
