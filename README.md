@@ -17,7 +17,6 @@ A Java/JavaFX app which converts text to speech.
 1. `Launch GUI from inside your favourite IDE`
 
 
-<br />
 
 ### Acknowledgements
 
