@@ -3,7 +3,6 @@ package com.lylechristine.texttospeechgui;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
-import javafx.fxml.FXMLLoader;
 import javafx.geometry.HPos;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -151,7 +150,6 @@ public class TextToSpeechGui extends Application {
 
         gridPane.setAlignment(Pos.CENTER);
         return gridPane;
-
 
     }
 
